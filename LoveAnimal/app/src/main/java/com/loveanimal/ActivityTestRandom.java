@@ -83,6 +83,7 @@ public class ActivityTestRandom extends Activity {
             public void onClick(View v) {
                 isStop = false;
                 r.run();
+                //r.run();
                 v.setEnabled(false);
             }
         });
